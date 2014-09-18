@@ -1,0 +1,4 @@
+[18-Sep-2014 17:50:07 UTC] PHP Parse error:  syntax error, unexpected '',' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home4/dhoak/public_html/sidecar/app/config/database.php on line 59
+[18-Sep-2014 17:52:04 UTC] PHP Parse error:  syntax error, unexpected '',' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home4/dhoak/public_html/sidecar/app/config/database.php on line 59
+[18-Sep-2014 17:53:21 UTC] PHP Parse error:  syntax error, unexpected '',' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home4/dhoak/public_html/sidecar/app/config/database.php on line 59
+[18-Sep-2014 17:53:23 UTC] PHP Parse error:  syntax error, unexpected '',' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home4/dhoak/public_html/sidecar/app/config/database.php on line 59

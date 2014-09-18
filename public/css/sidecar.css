@@ -1,0 +1,344 @@
+/*------------------------------
+	NAVIGATION
+------------------------------*/
+.navbar {
+    border-radius: 0px;
+    margin-bottom: 0px;
+}
+
+.navbar-default {
+    background-color: #292b33;
+    border-color: #292b33;
+    border-bottom: 3px solid #1C1C1C;
+}
+
+.navbar-default .navbar-brand {
+    color: #FFFFFF;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: #FFFFFF;
+}
+
+.navbar-default .navbar-toggle,
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:active,
+.navbar-default .navbar-toggle:focus{
+    background-color: #F5F5F5;
+}
+
+.navbar-default .navbar-nav li a {
+    color: #FFFFFF;
+}
+
+.navbar-default .navbar-nav li a:hover {
+    color: #F5F5F5;
+}
+
+/*------------------------------
+	FULL SITE
+------------------------------*/
+body {
+    background-color: #F5F5F5;
+    font-family: 'Lato', sans-serif;
+}
+
+h2 {
+    margin:0 0 20px;
+    color:#FFFFFF;
+    font-family:'Montserrat';
+    font-size:56px;
+}
+
+h3 {
+    color:#FFFFFF;
+    font-family:'Alegreya Sans SC';
+}
+
+h4 {
+    color:#FFFFFF;
+    font-family:'Alegreya Sans SC';
+    margin-top:0;
+}
+
+.section-title{
+    text-align: center;
+    padding-top: 25px;
+}
+
+.section-default{
+    /*background-color: #357F4E;*/
+    position: relative;
+    min-height: 650px;
+    border-bottom: 10px solid #DBDBDB;
+}
+
+.section-green{
+    background: #0F9459;
+    background-size: cover;
+    color: #fff;
+    min-height: 650px;
+    border-bottom: 10px solid #0D7F4C;
+}
+
+.section-gray{
+    background: #292b33;
+    background-size: cover;
+    color: #fff;
+    min-height: 650px;
+    border-bottom: 10px solid #1C1C1C;
+}
+
+.content{
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+
+
+/*------------------------------
+	PORTFOLIO SNAPSHOT
+------------------------------*/
+.grid {
+    padding: 20px;
+    max-width: 1300px;
+    margin: 0 auto;
+    list-style: none;
+    text-align: center;
+}
+
+.grid li {
+    display: inline-block;
+    width: 350px;
+    margin: 0;
+    padding: 20px;
+    text-align: left;
+    position: relative;
+}
+
+.grid figure {
+    margin: 0;
+    position: relative;
+}
+
+.grid figure img {
+    max-width: 100%;
+    display: block;
+    position: relative;
+}
+
+.grid figcaption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 15px;
+    background: #2c3f52;
+    color: #ed4e6e;
+}
+
+.grid figcaption h3 {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.grid figcaption span:before {
+    content: 'by ';
+}
+
+.grid figcaption a {
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 2px;
+    display: inline-block;
+    background: #ed4e6e;
+    color: #fff;
+}
+
+/* Caption Style 4 */
+.cs-style-4 li {
+    -webkit-perspective: 1700px;
+    -moz-perspective: 1700px;
+    perspective: 1700px;
+    -webkit-perspective-origin: 0 50%;
+    -moz-perspective-origin: 0 50%;
+    perspective-origin: 0 50%;
+}
+
+.cs-style-4 figure {
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.cs-style-4 figure > div {
+    overflow: hidden;
+}
+
+.cs-style-4 figure img {
+    -webkit-transition: -webkit-transform 0.4s;
+    -moz-transition: -moz-transform 0.4s;
+    transition: transform 0.4s;
+}
+
+.no-touch .cs-style-4 figure:hover img,
+.cs-style-4 figure.cs-hover img {
+    -webkit-transform: translateX(25%);
+    -moz-transform: translateX(25%);
+    -ms-transform: translateX(25%);
+    transform: translateX(25%);
+}
+
+.cs-style-4 figcaption {
+    height: 100%;
+    width: 50%;
+    opacity: 0;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-transform: rotateY(-90deg);
+    -moz-transform: rotateY(-90deg);
+    transform: rotateY(-90deg);
+    -webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
+    -moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
+    transition: transform 0.4s, opacity 0.1s 0.3s;
+}
+
+.no-touch .cs-style-4 figure:hover figcaption,
+.cs-style-4 figure.cs-hover figcaption {
+    opacity: 1;
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    -webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
+    -moz-transition: -moz-transform 0.4s, opacity 0.1s;
+    transition: transform 0.4s, opacity 0.1s;
+}
+
+.cs-style-4 figcaption a {
+    position: absolute;
+    bottom: 15px;
+
+    background-color:#ED5A64;
+}
+
+.cs-style-4 figcaption a:hover {
+    color:#ED5A64;
+    background-color:#ffffff;
+}
+
+/*------------------------------
+	MEDIUM DEVICES
+------------------------------*/
+
+@media (min-width:992px) and (max-width:1199px) {
+    .carousel .carousel-control {
+        top:140px;
+    }
+
+    #blog .line i {
+        left:138px;
+    }
+
+    #contact .macbook-inner {
+        top:56px;
+        left:137px;
+        width:697px;
+        height:435px;
+    }
+    #contact .form-control {
+        margin-bottom:9px;
+    }
+
+    #contact textarea.form-control {
+        height:100px;
+    }
+
+    .contact-image {
+        width:74px;
+    }
+
+}
+
+/*------------------------------
+	SMALL DEVICES
+------------------------------*/
+
+@media (min-width:768px) and (max-width:991px) {
+    header {
+        height:auto;
+    }
+
+    #skills-toggle {
+        margin-top:25px;
+    }
+
+    #services {
+        height:auto;
+    }
+
+    #carousel-reference {
+        top:24px;
+        right:35px;
+        left:35px;
+    }
+
+    .carousel .carousel-control {
+        top:100px;
+    }
+
+    #blog .line i {
+        left:100px;
+    }
+
+    #contact .macbook-inner {
+        top:43px;
+        left:108px;
+        width:535px;
+        height:334px;
+        padding:40px 20px;
+    }
+
+    #contact .form-control {
+        margin-bottom:7px;
+        height:28px;
+    }
+
+    #contact textarea.form-control {
+        height:70px;
+    }
+
+    #contact h3 {
+        margin:0 0 10px;
+        font-size:22px;
+    }
+
+    .macbook-inner .btn {
+        padding:4px 8px;
+    }
+
+    .tweets p {
+        line-height:20px;
+        font-size: 14px;
+    }
+
+}
+
+/*------------------------------
+	EXTRA SMALL DEVICES
+------------------------------*/
+
+@media (max-width:767px) {
+    h2 {
+        font-size:30px;
+        margin: auto;
+        text-align: center;
+    }
+
+    .grid li {
+        width: 300px;
+    }
+}
